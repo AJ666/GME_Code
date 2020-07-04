@@ -1,0 +1,307 @@
+[{
+	"inputs": [],
+	"name": "SignIn",
+	"outputs": [],
+	"stateMutability": "nonpayable",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "Take_All",
+	"outputs": [],
+	"stateMutability": "nonpayable",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "buyTicket",
+	"outputs": [],
+	"stateMutability": "payable",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "buyTicket_Airdrop",
+	"outputs": [],
+	"stateMutability": "payable",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "address",
+		"name": "addr",
+		"type": "address"
+	}, {
+		"internalType": "uint32",
+		"name": "index",
+		"type": "uint32"
+	}],
+	"name": "getBuyTicketRecordByAddress",
+	"outputs": [{
+		"internalType": "uint256[5]",
+		"name": "info",
+		"type": "uint256[5]"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "address",
+		"name": "addr",
+		"type": "address"
+	}, {
+		"internalType": "uint8",
+		"name": "_type",
+		"type": "uint8"
+	}, {
+		"internalType": "uint32",
+		"name": "index",
+		"type": "uint32"
+	}],
+	"name": "getCashOutDataByAddress",
+	"outputs": [{
+		"internalType": "uint256[2]",
+		"name": "info",
+		"type": "uint256[2]"
+	}, {
+		"internalType": "uint32",
+		"name": "",
+		"type": "uint32"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "string",
+		"name": "code",
+		"type": "string"
+	}],
+	"name": "getCodeMapping",
+	"outputs": [{
+		"internalType": "address",
+		"name": "",
+		"type": "address"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "uint256",
+		"name": "uid",
+		"type": "uint256"
+	}],
+	"name": "getIndexMapping",
+	"outputs": [{
+		"internalType": "address",
+		"name": "",
+		"type": "address"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "address",
+		"name": "addr",
+		"type": "address"
+	}, {
+		"internalType": "uint32",
+		"name": "index",
+		"type": "uint32"
+	}],
+	"name": "getInvestRecordByAddress",
+	"outputs": [{
+		"internalType": "uint256[8]",
+		"name": "info",
+		"type": "uint256[8]"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "string",
+		"name": "rCode",
+		"type": "string"
+	}],
+	"name": "getRCodeMappingLength",
+	"outputs": [{
+		"internalType": "uint256",
+		"name": "",
+		"type": "uint256"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "address",
+		"name": "addr",
+		"type": "address"
+	}],
+	"name": "getRCodeOffspringByAddress",
+	"outputs": [{
+		"internalType": "string[]",
+		"name": "offspring_CodeArr",
+		"type": "string[]"
+	}, {
+		"internalType": "uint256[][]",
+		"name": "offspring_info",
+		"type": "uint256[][]"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "address",
+		"name": "addr",
+		"type": "address"
+	}, {
+		"internalType": "uint8",
+		"name": "_type",
+		"type": "uint8"
+	}, {
+		"internalType": "uint32",
+		"name": "index",
+		"type": "uint32"
+	}],
+	"name": "getRewardDataByAddress",
+	"outputs": [{
+		"internalType": "uint256[2]",
+		"name": "info",
+		"type": "uint256[2]"
+	}, {
+		"internalType": "uint256",
+		"name": "",
+		"type": "uint256"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "address",
+		"name": "addr",
+		"type": "address"
+	}, {
+		"internalType": "uint32",
+		"name": "index",
+		"type": "uint32"
+	}],
+	"name": "getSignInRecordByAddress",
+	"outputs": [{
+		"internalType": "uint256[2]",
+		"name": "info",
+		"type": "uint256[2]"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "address",
+		"name": "addr",
+		"type": "address"
+	}],
+	"name": "getUserByAddress",
+	"outputs": [{
+		"internalType": "uint256[21]",
+		"name": "info",
+		"type": "uint256[21]"
+	}, {
+		"internalType": "string",
+		"name": "code",
+		"type": "string"
+	}, {
+		"internalType": "string",
+		"name": "rCode",
+		"type": "string"
+	}, {
+		"internalType": "address",
+		"name": "raddr",
+		"type": "address"
+	}, {
+		"internalType": "uint256",
+		"name": "rID",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "recommendNumber",
+		"type": "uint256"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "address",
+		"name": "addr",
+		"type": "address"
+	}],
+	"name": "getUserInfo",
+	"outputs": [{
+		"internalType": "uint256[4]",
+		"name": "",
+		"type": "uint256[4]"
+	}, {
+		"internalType": "string",
+		"name": "",
+		"type": "string"
+	}, {
+		"internalType": "string",
+		"name": "",
+		"type": "string"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "string",
+		"name": "code",
+		"type": "string"
+	}, {
+		"internalType": "string",
+		"name": "rCode",
+		"type": "string"
+	}],
+	"name": "invest",
+	"outputs": [],
+	"stateMutability": "payable",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "invest_Airdrop",
+	"outputs": [],
+	"stateMutability": "payable",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "isOpen",
+	"outputs": [{
+		"internalType": "bool",
+		"name": "",
+		"type": "bool"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "string",
+		"name": "code",
+		"type": "string"
+	}],
+	"name": "isUsedCode",
+	"outputs": [{
+		"internalType": "bool",
+		"name": "",
+		"type": "bool"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "settlement",
+	"outputs": [],
+	"stateMutability": "nonpayable",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "stateView",
+	"outputs": [{
+		"internalType": "uint256[42]",
+		"name": "info",
+		"type": "uint256[42]"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}]
