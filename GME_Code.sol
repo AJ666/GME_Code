@@ -920,8 +920,8 @@ contract GME_Code is DBUtilli, Utillibrary{
         public
     {
         EntranceTicketToken = _EntranceTicketAddr;
-        devAddr = address(0x430E84EcDB0e23be716df766Cf1568329F83c345);
-        foundationAddr = address(0x430E84EcDB0e23be716df766Cf1568329F83c345);
+        devAddr = address(this);
+        foundationAddr = address(this);
 
         //init params
         //start Time setting
